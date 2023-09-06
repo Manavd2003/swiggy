@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@800&family=Noto+Sans+JP:wght@500&family=Noto+Sans+Vithkuqi&family=Ubuntu:wght@300&display=swap');
+
+/* *{
+    background-color: black;
+} */
+
+#btn1{
+    background-color: white;
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+    height: 7vh;
+    width: 9vw;
+    border: none;
+}
+
+#btn2{
+    background-color: black;
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+    height: 7vh;
+    width: 9vw;
+    color: white;
+    border: 1px solid grey;
+}
+
+#btn3{
+    background-color: orange;
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+    height: 9vh;
+    width: 10vw;
+    border: none;
+    color: white;
+}
+
+#txt{
+    height: 9vh;
+    width: 30vw;
+    border: 0.1px solid grey;
+}
+ 
+#div1{
+    padding-left: 4vw;
+}
+
+@keyframes go{
+    0%{left: 0vw; top: 2vh; opacity: 0;}
+    10%{left: 0vw; top: 2vh; opacity: 0;}
+    20%{left: 0vw; top: 2vh; opacity: 0;}
+    80%{left: 0vw; top: 0vh; opacity: 1;}
+    100%{left: 0vw; top: -1vw; opacity: 0;}    
+}
+
+#animation{
+    position: relative;
+    animation: go 3s infinite;
+}
+
+#font1{
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    color: grey;
+}
+
+.font1{
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+
+#f1{
+    font-size: smaller;
+    margin-bottom: 1vw;
+}
+ 
